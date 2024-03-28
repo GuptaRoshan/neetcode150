@@ -66,7 +66,8 @@ public class ContainsDuplicate_217 {
     public static boolean containsDuplicateMap(int[] nums) {
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int num : nums) {
-            if (map.containsKey(num)) return true;
+            if (map.containsKey(num))
+                return true;
             map.put(num, map.getOrDefault(num, 0) + 1);
         }
         return false;
