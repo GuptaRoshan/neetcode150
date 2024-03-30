@@ -15,7 +15,6 @@ public class ValidAnagram_242 {
      */
     public static boolean isAnagramHashTable(String s, String t) {
         int[] count = new int[26];
-        Arrays.fill(count, 0);
 
         // Count the frequency of characters in string s
         for (char ch : s.toCharArray()) {
