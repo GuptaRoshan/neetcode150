@@ -29,28 +29,25 @@ public class CloneGraphs_133 {
         }
     }
 
-
     /**
-     *
-     * @param node graph node
+     * @param node   graph node
      * @param clones map of node values to their clones
      * @return Node
      */
     private Node cloneGraphDFSHelper(Node node, HashMap<Integer, Node> clones) {
-        if (!clones.containsKey(node.val)) {
-            // Create a new node and add it to the map
-            clones.put(node.val, new Node(node.val, new ArrayList<>()));
-            // Iterate over the neighbors of the node
-            // If the neighbor is not in the map, call the helper function recursively
-            // Add the neighbor to the neighbors list of the current node
-            for (Node currNode : node.neighbors) {
-                if (!clones.containsKey(currNode.val)) {
-                    cloneGraphDFSHelper(currNode, clones);
-                }
-
-                clones.get(node.val).neighbors.add(clones.get(currNode.val));
+        // Create a new node and add it to the map
+        clones.put(node.val, new Node(node.val, new ArrayList<>()));
+        // Iterate over the neighbors of the node
+        // If the neighbor is not in the map, call the helper function recursively
+        // Add the neighbor to the neighbors list of the current node
+        for (Node currNode : node.neighbors) {
+            if (!clones.containsKey(currNode.val)) {
+                cloneGraphDFSHelper(currNode, clones);
             }
+
+            clones.get(node.val).neighbors.add(clones.get(currNode.val));
         }
+
         return clones.get(node.val);
     }
 
