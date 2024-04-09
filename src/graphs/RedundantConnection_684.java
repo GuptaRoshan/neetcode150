@@ -3,6 +3,7 @@ package graphs;
 import java.util.Arrays;
 
 public class RedundantConnection_684 {
+
     private static class unionFind {
         private int[] parent;
         private int[] rank;
