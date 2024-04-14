@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class RedundantConnection_684 {
 
-    private static class unionFind {
+    private static class UnionFind {
         private int[] parent;
         private int[] rank;
 
@@ -13,10 +13,10 @@ public class RedundantConnection_684 {
          *
          * @param n number of vertices
          */
-        private void initializeUnionSet(int n) {
-            parent = new int[n + 1];
-            rank = new int[n + 1];
-            for (int i = 0; i <= n; i++) {
+        private UnionFind(int n) {
+            parent = new int[n];
+            rank = new int[n];
+            for (int i = 0; i < n; i++) {
                 parent[i] = i;
                 rank[i] = 0;
             }
@@ -69,8 +69,7 @@ public class RedundantConnection_684 {
      */
     public static int[] findRedundantConnection(int[][] edges) {
         int n = edges.length;
-        unionFind uf = new unionFind();
-        uf.initializeUnionSet(n);
+        UnionFind uf = new UnionFind(n);
         for (int[] edge : edges) {
             if (!uf.union(edge[0], edge[1])) {
                 return new int[]{edge[0], edge[1]};

@@ -2,7 +2,7 @@ package graphs;
 
 public class ConnectedComponentsUndirectedGraph_323 {
 
-    private static class unionFind {
+    private static class UnionFind {
         private int count;
         private int[] parent;
         private int[] rank;
@@ -12,11 +12,11 @@ public class ConnectedComponentsUndirectedGraph_323 {
          *
          * @param n number of vertices
          */
-        private void initializeUnionSet(int n) {
-            parent = new int[n + 1];
-            rank = new int[n + 1];
+        private UnionFind(int n) {
+            parent = new int[n];
+            rank = new int[n];
             count = n;
-            for (int i = 0; i <= n; i++) {
+            for (int i = 0; i < n; i++) {
                 parent[i] = i;
                 rank[i] = 0;
             }
@@ -68,13 +68,10 @@ public class ConnectedComponentsUndirectedGraph_323 {
      * @return number of connected components
      */
     public static int countComponents(int n, int[][] edges) {
-        unionFind uf = new unionFind();
-        uf.initializeUnionSet(n);
-
+        UnionFind uf = new UnionFind(n);
         for (int[] edge : edges) {
             uf.union(edge[0], edge[1]);
         }
-
         return uf.count;
     }
 
