@@ -95,7 +95,7 @@ public class Subsets_78 {
      */
     public static void picking(int[] nums, List<Integer> temp, List<List<Integer>> result, int i) {
         if (i == nums.length) {
-            result.add(new ArrayList<Integer>(temp));
+            result.add(new ArrayList<>(temp));
             return;
         }
 
