@@ -12,6 +12,7 @@ public class WordBreak_139 {
      * @param s        the string
      * @param wordDict the dictionary of words
      * @return true if s can be segmented into a space-separated sequence of one or more dictionary words
+     * Recursive solution: <a href="https://leetcode.com/problems/word-break/solutions/169383/solved-the-time-complexity-of-the-brute-force-method-should-be-o-2-n-and-prove-it-below/"> Link </a>
      */
     public static boolean wordBreak(String s, List<String> wordDict) {
         Set<String> set = new HashSet<>(wordDict);

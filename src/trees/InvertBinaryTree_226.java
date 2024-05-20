@@ -5,28 +5,9 @@ import java.util.Queue;
 
 public class InvertBinaryTree_226 {
 
-    //Definition for a binary tree node.
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode() {
-        }
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
-
     /**
      * BFS Implementation
+     *
      * @param root root node
      * @return root node
      */
@@ -53,6 +34,7 @@ public class InvertBinaryTree_226 {
 
     /**
      * DFS Implementation
+     *
      * @param root root node
      * @return root node
      */
@@ -74,10 +56,10 @@ public class InvertBinaryTree_226 {
     }
 
     public static void main(String[] args) {
-       TreeNode root = new TreeNode(2);
-       root.left = new TreeNode(1);
-       root.right = new TreeNode(3);
-       System.out.println(invertTree(root));
+        TreeNode root = new TreeNode(2);
+        root.left = new TreeNode(1);
+        root.right = new TreeNode(3);
+        System.out.println(invertTree(root));
     }
 
 }

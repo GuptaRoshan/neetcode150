@@ -1,4 +1,4 @@
-package dynamicProgramming1D;
+package dynamicProgramming2D;
 
 public class UniquePaths_62 {
 
