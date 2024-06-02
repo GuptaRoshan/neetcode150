@@ -40,7 +40,7 @@ public class LevelOrderTraversal {
      */
     public static void levelHelper(List<List<Integer>> res, TreeNode root, int height) {
         if (root == null) return;
-        if (height == res.size()) {
+        if (height >= res.size()) {
             res.add(new LinkedList<>());
         }
         res.get(height).add(root.val);
