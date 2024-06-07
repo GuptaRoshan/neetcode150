@@ -5,9 +5,9 @@ import java.util.Arrays;
 public class CountingBits_338 {
 
     /**
-     * Given a non negative integer number num. For every numbers i in the range 0 ≤ i ≤ num calculate the number of 1's
+     * Given a non-negative integer number num. For every number i in the range 0 ≤ i ≤ num calculate the number of 1's
      *
-     * @param num the non negative integer number
+     * @param num the non-negative integer number
      * @return the number of 1's in their binary representation as an array
      */
     public static int[] countBits(int num) {
@@ -24,7 +24,7 @@ public class CountingBits_338 {
 
     /**
      *
-     * @param n the non negative integer number
+     * @param n the non-negative integer number
      * @return the number of 1's in their binary representation as an array
      */
     public static int[] countBitsDP(int n) {

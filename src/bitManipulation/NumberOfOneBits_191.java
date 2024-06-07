@@ -3,7 +3,7 @@ package bitManipulation;
 public class NumberOfOneBits_191 {
 
     /**
-     * The idea is to remove the rightmost 1 from n in each iteration
+     * The idea is to remove the rightmost one from n in each iteration
      * and increment the count.
      * <p>
      * n & (n - 1) will remove the rightmost 1 from n.
@@ -15,7 +15,7 @@ public class NumberOfOneBits_191 {
      * Space complexity: O(1)
      *
      * @param n input integer n
-     * @return number of 1 bits in n
+     * @return Number of bits in n
      */
     public static int hammingWeight(int n) {
         int count = 0;
@@ -38,9 +38,10 @@ public class NumberOfOneBits_191 {
      * Space complexity: O(1)
      *
      * @param n input integer n
-     * @return number of 1 bits in n
+     * @return number of bits in n
      */
 
+    @SuppressWarnings("unused")
     public static int hammingWeight2(int n) {
         int ones = 0;
         while (n != 0) {
