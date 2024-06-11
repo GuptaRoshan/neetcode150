@@ -7,13 +7,18 @@ public class DailyTemperatures_739 {
 
     public static int[] dailyTemperatures(int[] temperatures) {
         int[] result = new int[temperatures.length];
+        Arrays.fill(result, 0);
         Stack<Integer> stack = new Stack<>();
 
         for (int i = temperatures.length - 1; i >= 0; i--) {
             while (!stack.empty() && temperatures[stack.peek()] <= temperatures[i]) {
                 stack.pop();
             }
-            result[i] = stack.empty() ? 0 : stack.peek() - i;
+
+            if (!stack.empty()) {
+                result[i] = stack.peek() - i;
+            }
+
             stack.push(i);
         }
         return result;
