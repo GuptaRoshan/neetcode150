@@ -2,7 +2,6 @@ package advancedGraphs;
 
 import java.util.PriorityQueue;
 import java.util.Queue;
-import java.util.function.BiFunction;
 
 public class MinCostToConnectAllPoints_1584 {
 
