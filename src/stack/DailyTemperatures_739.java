@@ -10,22 +10,19 @@ public class DailyTemperatures_739 {
         Arrays.fill(result, 0);
         Stack<Integer> stack = new Stack<>();
 
-        for (int i = temperatures.length - 1; i >= 0; i--) {
-            while (!stack.empty() && temperatures[stack.peek()] <= temperatures[i]) {
-                stack.pop();
+        for (int i = 0; i < temperatures.length; i++) {
+            while (!stack.isEmpty() && temperatures[stack.peek()] < temperatures[i]) {
+                int stackTop = stack.pop();
+                result[stackTop] = i - stackTop;
             }
-
-            if (!stack.empty()) {
-                result[i] = stack.peek() - i;
-            }
-
             stack.push(i);
         }
+
         return result;
     }
 
     public static void main(String[] args) {
-        int[] temperatures = {73, 74, 75, 71, 69, 72, 76, 73};
+        int[] temperatures = {89, 62, 70, 58, 47, 47, 46, 76, 100, 70};
         System.out.println(Arrays.toString(dailyTemperatures(temperatures))); // [1,1,4,2,1,1,0,0]
     }
 }
