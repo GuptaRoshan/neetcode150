@@ -35,10 +35,10 @@ public class InsertIntervals_57 {
     public static void main(String[] args) {
         int[][] intervals = {{1, 3}, {15, 18}, {8, 10}};
         int[] newInterval = {2, 6};
-        System.out.println(Arrays.deepToString(insert2(intervals, newInterval)));
+        System.out.println(Arrays.deepToString(insert(intervals, newInterval)));
         intervals = new int[][]{{1, 3}, {15, 18}};
         newInterval = new int[]{4, 6};
 
-        System.out.println(Arrays.deepToString(insert2(intervals, newInterval)));
+        System.out.println(Arrays.deepToString(insert(intervals, newInterval)));
     }
 }

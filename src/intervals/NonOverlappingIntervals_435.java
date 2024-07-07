@@ -11,13 +11,12 @@ public class NonOverlappingIntervals_435 {
         int end = intervals[0][1];
         int count = 1;
 
-        for (int[] interval : intervals) {
-            if (interval[0] >= end) {
-                end = interval[1];
+        for (int i = 1; i < intervals.length; i++) {
+            if (intervals[i][0] >= end) {
+                end = intervals[i][1];
                 count++;
             }
         }
-
         return intervals.length - count;
     }
 
