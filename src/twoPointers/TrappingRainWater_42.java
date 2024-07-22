@@ -20,6 +20,8 @@ public class TrappingRainWater_42 {
             leftMax = Math.max(leftMax, height[left]);
             rightMax = Math.max(rightMax, height[right]);
 
+            // leftMax < rightMax: It means you can trap water in the left section
+            // leftMax - height[left]: No. of units can be trapped
             if (leftMax < rightMax) {
                 totalCount += (leftMax - height[left]);
                 left++;
