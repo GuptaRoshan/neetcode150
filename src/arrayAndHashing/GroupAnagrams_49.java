@@ -1,10 +1,8 @@
 package arrayAndHashing;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
+@SuppressWarnings("all")
 public class GroupAnagrams_49 {
 
     /**
@@ -17,15 +15,16 @@ public class GroupAnagrams_49 {
     public static List<List<String>> groupAnagrams(String[] strs) {
         Map<String, List<String>> map = new HashMap<>();
         for (String word : strs) {
-            //char[] wordChar = word.toCharArray();
-            //Arrays.sort(wordChar);   // This will take O(nlogn) time complexity
-            //String key = new String(wordChar);
-            char[] charCount = new char[26];
-            for (char c : word.toCharArray()) {
-                charCount[c - 'a']++;
-            }
-            // This will be sorted string and use this as a key
-            String key = new String(charCount);
+            char[] wordChar = word.toCharArray();
+            Arrays.sort(wordChar);   // This will take O(nlogn) time complexity
+            String key = new String(wordChar);
+
+            // char[] charCount = new char[26];
+            // for (char c : word.toCharArray())
+            // charCount[c - 'a']++; // this stores in unicode point like '\u0000'
+
+            //String key = new String(charCount);
+
             map.computeIfAbsent(key, k -> new ArrayList<>()).add(word);
         }
 
@@ -33,7 +32,7 @@ public class GroupAnagrams_49 {
     }
 
     public static void main(String[] args) {
-        String[] strs = {"eaat", "tea", "tan", "ate", "nat", "bat"};
+        String[] strs = {"aaa", "tea", "tan", "ate", "nat", "bat"};
         System.out.println(groupAnagrams(strs));
     }
 

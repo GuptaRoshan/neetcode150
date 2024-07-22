@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class EncodeDecodeStrings_271 {
-    final static char DELIMITER = ';';
+    final static char DELIMITER = ';' ;
 
     /**
      * Encodes a list of strings to a single string.
@@ -45,7 +45,7 @@ public class EncodeDecodeStrings_271 {
     }
 
     public static void main(String[] args) {
-        List<String> list = List.of("lint", "code", "love", "you");
+        List<String> list = List.of("design", "code", "loving", "coffee");
         String encodedString = encode(list);
         System.out.println(encodedString);
         System.out.println(decode(encodedString));

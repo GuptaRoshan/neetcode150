@@ -11,17 +11,17 @@ Creator's [original repository](https://github.com/neetcode-gh/leetcode) and [we
 
 ## Arrays & Hashing
 
-| LeetCode ID | Difficulty | Problem                                                                                     | Solution | Notes                                               |
-|-------------|------------|---------------------------------------------------------------------------------------------|----------|-----------------------------------------------------|
-| 217         | Easy       | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                     |          | Can be done using,`two loops, set, map and sorting` |
-| 242         | Easy       | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                               |          |                                                     |
-| 1           | Easy       | [Two Sum](https://leetcode.com/problems/two-sum/)                                           |          |                                                     |
-| 49          | Medium     | [Group Anagrams](https://leetcode.com/problems/group-anagrams/)                             |          |                                                     |
-| 347         | Medium     | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)           |          |                                                     |
-| 238         | Medium     | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) |          |                                                     |
-| 36          | Medium     | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)                                 |          |                                                     |
-| 271         | Medium     | [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)       |          |                                                     |
-| 128         | Medium     | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) |          |                                                     |
+| LeetCode ID | Difficulty | Problem                                                                                     | Solution | Notes                                                                                           |
+|-------------|------------|---------------------------------------------------------------------------------------------|----------|-------------------------------------------------------------------------------------------------|
+| 217         | Easy       | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                     |          | Can be done using,`two loops, set, map and sorting`                                             |
+| 242         | Easy       | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                               |          | can be done using, `sorting, count frequency, map`                                              |
+| 1           | Easy       | [Two Sum](https://leetcode.com/problems/two-sum/)                                           |          | Using Map to store the difference between the `target and the current index`                    |
+| 49          | Medium     | [Group Anagrams](https://leetcode.com/problems/group-anagrams/)                             |          | create map, sort each word, create key and put that word in map                                 |
+| 347         | Medium     | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)           |          | create a frequency `map`, create `pair<k, v>` put into max priority queue, poll two elements    |
+| 238         | Medium     | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) |          | create prefix product from 0th index and suffix from nth index, create product from both arrays |
+| 36          | Medium     | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)                                 |          | use set and create a string with `row, col and gridNumber = (i / 3) * 3 + (j / 3)`              |
+| 271         | Medium     | [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)       |          | Encode using `delimiter` and decode using string function                                       |
+| 128         | Medium     | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) |          | create a set and run two while loops, decrement(--) and increment(++) for each number           |
 
 ## Two Pointers
 
