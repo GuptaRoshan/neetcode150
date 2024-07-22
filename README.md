@@ -11,17 +11,17 @@ Creator's [original repository](https://github.com/neetcode-gh/leetcode) and [we
 
 ## Arrays & Hashing
 
-| LeetCode ID | Difficulty | Problem                                                                                     | Solution | Notes |
-|-------------|------------|---------------------------------------------------------------------------------------------|----------|-------|
-| 217         | Easy       | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                     |          |       |
-| 242         | Easy       | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                               |          |       |
-| 1           | Easy       | [Two Sum](https://leetcode.com/problems/two-sum/)                                           |          |       |
-| 49          | Medium     | [Group Anagrams](https://leetcode.com/problems/group-anagrams/)                             |          |       |
-| 347         | Medium     | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)           |          |       |
-| 238         | Medium     | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) |          |       |
-| 36          | Medium     | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)                                 |          |       |
-| 271         | Medium     | [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)       |          |       |
-| 128         | Medium     | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) |          |       |
+| LeetCode ID | Difficulty | Problem                                                                                     | Solution | Notes                                               |
+|-------------|------------|---------------------------------------------------------------------------------------------|----------|-----------------------------------------------------|
+| 217         | Easy       | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                     |          | Can be done using,`two loops, set, map and sorting` |
+| 242         | Easy       | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                               |          |                                                     |
+| 1           | Easy       | [Two Sum](https://leetcode.com/problems/two-sum/)                                           |          |                                                     |
+| 49          | Medium     | [Group Anagrams](https://leetcode.com/problems/group-anagrams/)                             |          |                                                     |
+| 347         | Medium     | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)           |          |                                                     |
+| 238         | Medium     | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) |          |                                                     |
+| 36          | Medium     | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)                                 |          |                                                     |
+| 271         | Medium     | [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)       |          |                                                     |
+| 128         | Medium     | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) |          |                                                     |
 
 ## Two Pointers
 
