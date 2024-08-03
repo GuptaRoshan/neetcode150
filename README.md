@@ -35,38 +35,38 @@ Creator's [original repository](https://github.com/neetcode-gh/leetcode) and [we
 
 ## Sliding Window
 
-| LeetCode ID | Difficulty | Problem                                                                                                                         | Solution | Notes |
-|-------------|------------|---------------------------------------------------------------------------------------------------------------------------------|----------|-------|
-| 121         | Easy       | [Best Time to Buy & Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)                                 |          |       |
-| 3           | Medium     | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |          |       |
-| 424         | Medium     | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)               |          |       |
-| 567         | Medium     | [Permutation in String](https://leetcode.com/problems/permutation-in-string/)                                                   |          |       |
-| 76          | Hard       | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)                                             |          |       |
-| 239         | Hard       | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)                                                 |          |       |
+| LeetCode ID | Difficulty | Problem                                                                                                                         | Solution | Notes                                                                                                |
+|-------------|------------|---------------------------------------------------------------------------------------------------------------------------------|----------|------------------------------------------------------------------------------------------------------|
+| 121         | Easy       | [Best Time to Buy & Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)                                 |          | Calculate the min value min(buy value)                                                               |
+| 3           | Medium     | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |          | Used map or set to store unique characters, window size = (right - left + 1)                         |
+| 424         | Medium     | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)               |          | get the most frequent letter, minus with window size if difference exceeds k, then shrink the window |
+| 567         | Medium     | [Permutation in String](https://leetcode.com/problems/permutation-in-string/)                                                   |          | minus and plus in frequency count of string  s1 and s2                                               |
+| 76          | Hard       | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)                                             |          | Commented on Solution                                                                                |
+| 239         | Hard       | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)                                                 |          | Implemented Bruteforce solution, can be done using `deque`                                           |
 
 ## Stack
 
-| LeetCode ID | Difficulty | Problem                                                                                             | Solution | Notes |
-|-------------|------------|-----------------------------------------------------------------------------------------------------|----------|-------|
-| 20          | Easy       | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                               |          |       |
-| 155         | Medium     | [Min Stack](https://leetcode.com/problems/min-stack/)                                               |          |       |
-| 150         | Medium     | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) |          |       |
-| 22          | Medium     | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)                         |          |       |
-| 739         | Medium     | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)                             |          |       |
-| 853         | Medium     | [Car Fleet](https://leetcode.com/problems/car-fleet/)                                               |          |       |
-| 84          | Hard       | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)     |          |       |
+| LeetCode ID | Difficulty | Problem                                                                                             | Solution | Notes                                                |
+|-------------|------------|-----------------------------------------------------------------------------------------------------|----------|------------------------------------------------------|
+| 20          | Easy       | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                               |          | Done                                                 |
+| 155         | Medium     | [Min Stack](https://leetcode.com/problems/min-stack/)                                               |          | Create linked list with min value and insert at head |
+| 150         | Medium     | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) |          | Done                                                 |
+| 22          | Medium     | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)                         |          | can be done using backtracking, more elegant         |
+| 739         | Medium     | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)                             |          | Done using monotonic stack                           |
+| 853         | Medium     | [Car Fleet](https://leetcode.com/problems/car-fleet/)                                               |          |                                                      |
+| 84          | Hard       | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)     |          | Can be done using increasing `monotonic stack`       |
 
 ## Binary Search
 
-| LeetCode ID | Difficulty | Problem                                                                                                     | Solution | Notes |
-|-------------|------------|-------------------------------------------------------------------------------------------------------------|----------|-------|
-| 704         | Easy       | [Binary Search](https://leetcode.com/problems/binary-search/)                                               |          |       |
-| 74          | Medium     | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                                     |          |       |
-| 875         | Medium     | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)                                   |          |       |
-| 33          | Medium     | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)             |          |       |
-| 153         | Medium     | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) |          |       |
-| 981         | Medium     | [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)                     |          |       |
-| 4           | Hard       | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)                   |          |       |
+| LeetCode ID | Difficulty | Problem                                                                                                     | Solution | Notes                                                                                   |
+|-------------|------------|-------------------------------------------------------------------------------------------------------------|----------|-----------------------------------------------------------------------------------------|
+| 704         | Easy       | [Binary Search](https://leetcode.com/problems/binary-search/)                                               |          | Normal Binary Search                                                                    |
+| 74          | Medium     | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                                     |          | Thinking matrix as sorted array                                                         |
+| 875         | Medium     | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)                                   |          | Finding speed based hours given                                                         |
+| 33          | Medium     | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)             |          | Find the smallest element in rotated array, normal binary search in in sorted sub-array |
+| 153         | Medium     | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) |          | Smallest element in rotated array `nums[mid] <= nums[high]`                             |
+| 981         | Medium     | [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)                     |          | Solved using binary search, return the target or just smaller element than target       |
+| 4           | Hard       | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)                   |          |                                                                                         |
 
 ## Linked List
 

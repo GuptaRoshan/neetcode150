@@ -14,6 +14,8 @@ public class LongestCharReplacement_424 {
             mostFreqLetter = Math.max(mostFreqLetter, freq[ch - 'A']);
 
             // If my window size - mostFreqLetter > k, then shrink the left pointer
+            // right - left + 1 - mostFreqLetter is the number of letters that are not the most frequent letter
+            // If this number is greater than k, then a window does not satisfy the condition
             if (right - left + 1 - mostFreqLetter > k) {
                 freq[s.charAt(left) - 'A']--;
                 left++;

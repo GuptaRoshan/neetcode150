@@ -18,7 +18,9 @@ public class ValidParentheses_20 {
                 continue;
             }
 
-            if (stack.isEmpty()) return false;
+            if (stack.isEmpty()){
+                return false;
+            }
 
             if (stack.peek() == '(' && ch == ')' || stack.peek() == '[' && ch == ']' || stack.peek() == '{' && ch == '}') {
                 stack.pop();
