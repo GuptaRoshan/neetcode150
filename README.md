@@ -53,7 +53,7 @@ Creator's [original repository](https://github.com/neetcode-gh/leetcode) and [we
 | 150         | Medium     | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Solution]() | Done                                                 |
 | 22          | Medium     | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)                         | [Solution]() | can be done using backtracking, more elegant         |
 | 739         | Medium     | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)                             | [Solution]() | Done using monotonic stack                           |
-| 853         | Medium     | [Car Fleet](https://leetcode.com/problems/car-fleet/)                                               |              |                                                      |
+| 853         | Medium     | [Car Fleet](https://leetcode.com/problems/car-fleet/)                                               | ---          | ---                                                  |
 | 84          | Hard       | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)     | [Solution]() | Can be done using increasing `monotonic stack`       |
 
 ## Binary Search
@@ -67,7 +67,7 @@ Creator's [original repository](https://github.com/neetcode-gh/leetcode) and [we
 | 33          | Medium     | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)             | [Solution](https://github.com/GuptaRoshan/neetcode150/blob/main/src/binarySearch/SearchInRotatedArray_33.java)         | Find the smallest element in rotated array, normal binary search in in sorted sub-array |
 | 153         | Medium     | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Solution](https://github.com/GuptaRoshan/neetcode150/blob/main/src/binarySearch/MinimumInSortedRotatedArray_153.java) | Smallest element in rotated array `nums[mid] <= nums[high]`                             |
 | 981         | Medium     | [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)                     | [Solution](https://github.com/GuptaRoshan/neetcode150/blob/main/src/binarySearch/TimeBasedKeyValueStore_981.java)      | Solved using binary search, return the target or just smaller element than target       |
-| 4           | Hard       | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)                   |                                                                                                                        |                                                                                         |
+| 4           | Hard       | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)                   | ---                                                                                                                    | ---                                                                                     |
 
 ## Linked List
 
@@ -103,17 +103,17 @@ Creator's [original repository](https://github.com/neetcode-gh/leetcode) and [we
 | 1448        | Medium     | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)                                                     | [Solution](https://github.com/GuptaRoshan/neetcode150/blob/main/src/trees/CountGoodNodes_1448.java)         |                                 |
 | 98          | Medium     | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)                                                             | [Solution](https://github.com/GuptaRoshan/neetcode150/blob/main/src/trees/ValidateBST_98.java)              |                                 |
 | 230         | Medium     | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)                                                         | [Solution](https://github.com/GuptaRoshan/neetcode150/blob/main/src/trees/KthSmallestInBST_230.java)        |                                 |
-| 105         | Medium     | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) |                                                                                                             |                                 |
-| 124         | Hard       | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)                                                           |                                                                                                             |                                 |
-| 297         | Hard       | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)                                         |                                                                                                             |                                 |
+| 105         | Medium     | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | ---                                                                                                         |                                 |
+| 124         | Hard       | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)                                                           | ---                                                                                                         |                                 |
+| 297         | Hard       | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)                                         | ---                                                                                                         |                                 |
 
 ## Tries
 
-| LeetCode ID | Difficulty | Problem                                                                                                                 | Solution | Notes |
-|-------------|------------|-------------------------------------------------------------------------------------------------------------------------|----------|-------|
-| 208         | Medium     | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)                               |          |       |
-| 211         | Medium     | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) |          |       |
-| 212         | Hard       | [Word Search II](https://leetcode.com/problems/word-search-ii/)                                                         |          |       |
+| LeetCode ID | Difficulty | Problem                                                                                                                 | Solution     | Notes |
+|-------------|------------|-------------------------------------------------------------------------------------------------------------------------|--------------|-------|
+| 208         | Medium     | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)                               | [Solution]() |       |
+| 211         | Medium     | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | [Solution]() |       |
+| 212         | Hard       | [Word Search II](https://leetcode.com/problems/word-search-ii/)                                                         | [Solution]() |       |
 
 ## Heap / Priority Queue
 
@@ -129,126 +129,126 @@ Creator's [original repository](https://github.com/neetcode-gh/leetcode) and [we
 
 ## Backtracking
 
-| LeetCode ID | Difficulty | Problem                                                                                                       | Solution | Notes |
-|-------------|------------|---------------------------------------------------------------------------------------------------------------|----------|-------|
-| 78          | Medium     | [Subsets](https://leetcode.com/problems/subsets/)                                                             |          |       |
-| 39          | Medium     | [Combination Sum](https://leetcode.com/problems/combination-sum/)                                             |          |       |
-| 46          | Medium     | [Permutations](https://leetcode.com/problems/permutations/)                                                   |          |       |
-| 90          | Medium     | [Subsets II](https://leetcode.com/problems/subsets-ii/)                                                       |          |       |
-| 40          | Medium     | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)                                       |          |       |
-| 79          | Medium     | [Word Search](https://leetcode.com/problems/word-search/)                                                     |          |       |
-| 131         | Medium     | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)                             |          |       |
-| 17          | Medium     | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) |          |       |
-| 51          | Hard       | [N-Queens](https://leetcode.com/problems/n-queens/)                                                           |          |       |
+| LeetCode ID | Difficulty | Problem                                                                                                       | Solution     | Notes |
+|-------------|------------|---------------------------------------------------------------------------------------------------------------|--------------|-------|
+| 78          | Medium     | [Subsets](https://leetcode.com/problems/subsets/)                                                             | [Solution]() |       |
+| 39          | Medium     | [Combination Sum](https://leetcode.com/problems/combination-sum/)                                             | [Solution]() |       |
+| 46          | Medium     | [Permutations](https://leetcode.com/problems/permutations/)                                                   | [Solution]() |       |
+| 90          | Medium     | [Subsets II](https://leetcode.com/problems/subsets-ii/)                                                       | [Solution]() |       |
+| 40          | Medium     | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)                                       | [Solution]() |       |
+| 79          | Medium     | [Word Search](https://leetcode.com/problems/word-search/)                                                     | [Solution]() |       |
+| 131         | Medium     | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)                             | [Solution]() |       |
+| 17          | Medium     | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [Solution]() |       |
+| 51          | Hard       | [N-Queens](https://leetcode.com/problems/n-queens/)                                                           | [Solution]() |       |
 
 ## Graphs
 
-| LeetCode ID | Difficulty | Problem                                                                                                                                       | Solution | Notes |
-|-------------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------|----------|-------|
-| 200         | Medium     | [Number of Islands](https://leetcode.com/problems/number-of-islands/)                                                                         |          |       |
-| 133         | Medium     | [Clone Graph](https://leetcode.com/problems/clone-graph/)                                                                                     |          |       |
-| 695         | Medium     | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/)                                                                       |          |       |
-| 417         | Medium     | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)                                                     |          |       |
-| 130         | Medium     | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)                                                                       |          |       |
-| 994         | Medium     | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)                                                                             |          |       |
-| 286         | Medium     | [Walls and Gates](https://leetcode.com/problems/walls-and-gates/)                                                                             |          |       |
-| 207         | Medium     | [Course Schedule](https://leetcode.com/problems/course-schedule/)                                                                             |          |       |
-| 210         | Medium     | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)                                                                       |          |       |
-| 684         | Medium     | [Redundant Connection](https://leetcode.com/problems/redundant-connection/)                                                                   |          |       |
-| 323         | Medium     | [Number of Connected Components In An Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) |          |       |
-| 261         | Medium     | [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)                                                                           |          |       |
-| 127         | Hard       | [Word Ladder](https://leetcode.com/problems/word-ladder/)                                                                                     |          |       |
+| LeetCode ID | Difficulty | Problem                                                                                                                                       | Solution     | Notes |
+|-------------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------|--------------|-------|
+| 200         | Medium     | [Number of Islands](https://leetcode.com/problems/number-of-islands/)                                                                         | [Solution]() |       |
+| 133         | Medium     | [Clone Graph](https://leetcode.com/problems/clone-graph/)                                                                                     | [Solution]() |       |
+| 695         | Medium     | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/)                                                                       | [Solution]() |       |
+| 417         | Medium     | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)                                                     | [Solution]() |       |
+| 130         | Medium     | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)                                                                       | [Solution]() |       |
+| 994         | Medium     | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)                                                                             | [Solution]() |       |
+| 286         | Medium     | [Walls and Gates](https://leetcode.com/problems/walls-and-gates/)                                                                             | [Solution]() |       |
+| 207         | Medium     | [Course Schedule](https://leetcode.com/problems/course-schedule/)                                                                             | [Solution]() |       |
+| 210         | Medium     | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)                                                                       | [Solution]() |       |
+| 684         | Medium     | [Redundant Connection](https://leetcode.com/problems/redundant-connection/)                                                                   | [Solution]() |       |
+| 323         | Medium     | [Number of Connected Components In An Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | [Solution]() |       |
+| 261         | Medium     | [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)                                                                           | [Solution]() |       |
+| 127         | Hard       | [Word Ladder](https://leetcode.com/problems/word-ladder/)                                                                                     | [Solution]() |       |
 
 ## Advanced Graphs
 
-| LeetCode ID | Difficulty | Problem                                                                                           | Solution | Notes |
-|-------------|------------|---------------------------------------------------------------------------------------------------|----------|-------|
-| 332         | Hard       | [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)                     |          |       |
-| 1584        | Medium     | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)   |          |       |
-| 743         | Medium     | [Network Delay Time](https://leetcode.com/problems/network-delay-time/)                           |          |       |
-| 778         | Hard       | [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)                       |          |       |
-| 269         | Hard       | [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)                               |          |       |
-| 787         | Medium     | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) |          |       |
+| LeetCode ID | Difficulty | Problem                                                                                           | Solution     | Notes |
+|-------------|------------|---------------------------------------------------------------------------------------------------|--------------|-------|
+| 332         | Hard       | [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)                     | [Solution]() |       |
+| 1584        | Medium     | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)   | [Solution]() |       |
+| 743         | Medium     | [Network Delay Time](https://leetcode.com/problems/network-delay-time/)                           | [Solution]() |       |
+| 778         | Hard       | [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)                       | [Solution]() |       |
+| 269         | Hard       | [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)                               | [Solution]() |       |
+| 787         | Medium     | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | [Solution]() |       |
 
 ## 1-D Dynamic Programming
 
-| LeetCode ID | Difficulty | Problem                                                                                         | Solution | Notes |
-|-------------|------------|-------------------------------------------------------------------------------------------------|----------|-------|
-| 70          | Easy       | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                               |          |       |
-| 746         | Easy       | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)             |          |       |
-| 198         | Medium     | [House Robber](https://leetcode.com/problems/house-robber/)                                     |          |       |
-| 213         | Medium     | [House Robber II](https://leetcode.com/problems/house-robber-ii/)                               |          |       |
-| 5           | Medium     | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)   |          |       |
-| 647         | Medium     | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)                 |          |       |
-| 91          | Medium     | [Decode Ways](https://leetcode.com/problems/decode-ways/)                                       |          |       |
-| 322         | Medium     | [Coin Change](https://leetcode.com/problems/coin-change/)                                       |          |       |
-| 152         | Medium     | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)             |          |       |
-| 139         | Medium     | [Word Break](https://leetcode.com/problems/word-break/)                                         |          |       |
-| 300         | Medium     | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) |          |       |
-| 416         | Medium     | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)         |          |       |
+| LeetCode ID | Difficulty | Problem                                                                                         | Solution     | Notes |
+|-------------|------------|-------------------------------------------------------------------------------------------------|--------------|-------|
+| 70          | Easy       | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                               | [Solution]() |       |
+| 746         | Easy       | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)             | [Solution]() |       |
+| 198         | Medium     | [House Robber](https://leetcode.com/problems/house-robber/)                                     | [Solution]() |       |
+| 213         | Medium     | [House Robber II](https://leetcode.com/problems/house-robber-ii/)                               | [Solution]() |       |
+| 5           | Medium     | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)   | [Solution]() |       |
+| 647         | Medium     | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)                 | [Solution]() |       |
+| 91          | Medium     | [Decode Ways](https://leetcode.com/problems/decode-ways/)                                       | [Solution]() |       |
+| 322         | Medium     | [Coin Change](https://leetcode.com/problems/coin-change/)                                       | [Solution]() |       |
+| 152         | Medium     | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)             | [Solution]() |       |
+| 139         | Medium     | [Word Break](https://leetcode.com/problems/word-break/)                                         | [Solution]() |       |
+| 300         | Medium     | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Solution]() |       |
+| 416         | Medium     | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)         | [Solution]() |       |
 
 ## 2-D Dynamic Programing
 
-| LeetCode ID | Difficulty | Problem                                                                                                                       | Solution | Notes |
-|-------------|------------|-------------------------------------------------------------------------------------------------------------------------------|----------|-------|
-| 62          | Medium     | [Unique Paths](https://leetcode.com/problems/unique-paths/)                                                                   |          |       |
-| 1143        | Medium     | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)                                       |          |       |
-| 309         | Medium     | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) |          |       |
-| 518         | Medium     | [Coin Change II](https://leetcode.com/problems/coin-change-ii/)                                                               |          |       |
-| 494         | Medium     | [Target Sum](https://leetcode.com/problems/target-sum/)                                                                       |          |       |
-| 97          | Medium     | [Interleaving String](https://leetcode.com/problems/interleaving-string/)                                                     |          |       |
-| 329         | Hard       | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)                     |          |       |
-| 115         | Hard       | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)                                                 |          |       |
-| 72          | Hard       | [Edit Distance](https://leetcode.com/problems/edit-distance/)                                                                 |          |       |
-| 312         | Hard       | [Burst Balloons](https://leetcode.com/problems/burst-balloons/)                                                               |          |       |
-| 10          | Hard       | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)                                     |          |       |
+| LeetCode ID | Difficulty | Problem                                                                                                                       | Solution     | Notes |
+|-------------|------------|-------------------------------------------------------------------------------------------------------------------------------|--------------|-------|
+| 62          | Medium     | [Unique Paths](https://leetcode.com/problems/unique-paths/)                                                                   | [Solution]() |       |
+| 1143        | Medium     | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)                                       | [Solution]() |       |
+| 309         | Medium     | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [Solution]() |       |
+| 518         | Medium     | [Coin Change II](https://leetcode.com/problems/coin-change-ii/)                                                               | [Solution]() |       |
+| 494         | Medium     | [Target Sum](https://leetcode.com/problems/target-sum/)                                                                       | [Solution]() |       |
+| 97          | Medium     | [Interleaving String](https://leetcode.com/problems/interleaving-string/)                                                     | [Solution]() |       |
+| 329         | Hard       | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)                     | [Solution]() |       |
+| 115         | Hard       | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)                                                 | [Solution]() |       |
+| 72          | Hard       | [Edit Distance](https://leetcode.com/problems/edit-distance/)                                                                 | [Solution]() |       |
+| 312         | Hard       | [Burst Balloons](https://leetcode.com/problems/burst-balloons/)                                                               | [Solution]() |       |
+| 10          | Hard       | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)                                     | [Solution]() |       |
 
 ## Greedy
 
-| LeetCode ID | Difficulty | Problem                                                                                                       | Solution | Notes |
-|-------------|------------|---------------------------------------------------------------------------------------------------------------|----------|-------|
-| 53          | Medium     | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)                                           |          |       |
-| 55          | Medium     | [Jump Game](https://leetcode.com/problems/jump-game/)                                                         |          |       |
-| 45          | Medium     | [Jump Game II](https://leetcode.com/problems/jump-game-ii/)                                                   |          |       |
-| 134         | Medium     | [Gas Station](https://leetcode.com/problems/gas-station/)                                                     |          |       |
-| 846         | Medium     | [Hand of Straights](https://leetcode.com/problems/hand-of-straights/)                                         |          |       |
-| 1899        | Medium     | [Merge Triplets to Form Target Triplet](https://leetcode.com/problems/merge-triplets-to-form-target-triplet/) |          |       |
-| 763         | Medium     | [Partition Labels](https://leetcode.com/problems/partition-labels/)                                           |          |       |
-| 678         | Medium     | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)                           |          |       |
+| LeetCode ID | Difficulty | Problem                                                                                                       | Solution     | Notes |
+|-------------|------------|---------------------------------------------------------------------------------------------------------------|--------------|-------|
+| 53          | Medium     | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)                                           | [Solution]() |       |
+| 55          | Medium     | [Jump Game](https://leetcode.com/problems/jump-game/)                                                         | [Solution]() |       |
+| 45          | Medium     | [Jump Game II](https://leetcode.com/problems/jump-game-ii/)                                                   | [Solution]() |       |
+| 134         | Medium     | [Gas Station](https://leetcode.com/problems/gas-station/)                                                     | [Solution]() |       |
+| 846         | Medium     | [Hand of Straights](https://leetcode.com/problems/hand-of-straights/)                                         | [Solution]() |       |
+| 1899        | Medium     | [Merge Triplets to Form Target Triplet](https://leetcode.com/problems/merge-triplets-to-form-target-triplet/) | [Solution]() |       |
+| 763         | Medium     | [Partition Labels](https://leetcode.com/problems/partition-labels/)                                           | [Solution]() |       |
+| 678         | Medium     | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)                           | [Solution]() |       |
 
 ## Intervals
 
-| LeetCode ID | Difficulty | Problem                                                                                                         | Solution | Notes |
-|-------------|------------|-----------------------------------------------------------------------------------------------------------------|----------|-------|
-| 57          | Medium     | [Insert Interval](https://leetcode.com/problems/insert-interval/)                                               |          |       |
-| 56          | Medium     | [Merge Intervals](https://leetcode.com/problems/merge-intervals/)                                               |          |       |
-| 435         | Medium     | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)                           |          |       |
-| 252         | Easy       | [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)                                                   |          |       |
-| 253         | Medium     | [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)                                             |          |       |
-| 1851        | Hard       | [Minimum Interval to Include Each Query](https://leetcode.com/problems/minimum-interval-to-include-each-query/) |          |       |
+| LeetCode ID | Difficulty | Problem                                                                                                         | Solution     | Notes |
+|-------------|------------|-----------------------------------------------------------------------------------------------------------------|--------------|-------|
+| 57          | Medium     | [Insert Interval](https://leetcode.com/problems/insert-interval/)                                               | [Solution]() |       |
+| 56          | Medium     | [Merge Intervals](https://leetcode.com/problems/merge-intervals/)                                               | [Solution]() |       |
+| 435         | Medium     | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)                           | [Solution]() |       |
+| 252         | Easy       | [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)                                                   | [Solution]() |       |
+| 253         | Medium     | [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)                                             | [Solution]() |       |
+| 1851        | Hard       | [Minimum Interval to Include Each Query](https://leetcode.com/problems/minimum-interval-to-include-each-query/) | [Solution]() |       |
 
 ## Math & Geometry
 
-| LeetCode ID | Difficulty | Problem                                                               | Solution | Notes |
-|-------------|------------|-----------------------------------------------------------------------|----------|-------|
-| 48          | Medium     | [Rotate Image](https://leetcode.com/problems/rotate-image/)           |          |       |
-| 54          | Medium     | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)         |          |       |
-| 73          | Medium     | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) |          |       |
-| 202         | Easy       | [Happy Number](https://leetcode.com/problems/happy-number/)           |          |       |
-| 66          | Easy       | [Plus One](https://leetcode.com/problems/plus-one/)                   |          |       |
-| 50          | Medium     | [Pow(x, n)](https://leetcode.com/problems/powx-n/)                    |          |       |
-| 43          | Medium     | [Multiply Strings](https://leetcode.com/problems/multiply-strings/)   |          |       |
-| 2013        | Medium     | [Detect Squares](https://leetcode.com/problems/detect-squares/)       |          |       |
+| LeetCode ID | Difficulty | Problem                                                               | Solution     | Notes |
+|-------------|------------|-----------------------------------------------------------------------|--------------|-------|
+| 48          | Medium     | [Rotate Image](https://leetcode.com/problems/rotate-image/)           | [Solution]() |       |
+| 54          | Medium     | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)         | [Solution]() |       |
+| 73          | Medium     | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [Solution]() |       |
+| 202         | Easy       | [Happy Number](https://leetcode.com/problems/happy-number/)           | [Solution]() |       |
+| 66          | Easy       | [Plus One](https://leetcode.com/problems/plus-one/)                   | [Solution]() |       |
+| 50          | Medium     | [Pow(x, n)](https://leetcode.com/problems/powx-n/)                    | [Solution]() |       |
+| 43          | Medium     | [Multiply Strings](https://leetcode.com/problems/multiply-strings/)   | [Solution]() |       |
+| 2013        | Medium     | [Detect Squares](https://leetcode.com/problems/detect-squares/)       | [Solution]() |       |
 
 ## Bit Manipulation
 
-| LeetCode ID | Difficulty | Problem                                                                   | Solution | Notes |
-|-------------|------------|---------------------------------------------------------------------------|----------|-------|
-| 136         | Easy       | [Single Number](https://leetcode.com/problems/single-number/)             |          |       |
-| 191         | Easy       | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)       |          |       |
-| 338         | Easy       | [Counting Bits](https://leetcode.com/problems/counting-bits/)             |          |       |
-| 190         | Easy       | [Reverse Bits](https://leetcode.com/problems/reverse-bits/)               |          |       |
-| 268         | Easy       | [Missing Number](https://leetcode.com/problems/missing-number/)           |          |       |
-| 371         | Medium     | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) |          |       |
-| 7           | Medium     | [Reverse Integer](https://leetcode.com/problems/reverse-integer/)         |          |       |
+| LeetCode ID | Difficulty | Problem                                                                   | Solution     | Notes |
+|-------------|------------|---------------------------------------------------------------------------|--------------|-------|
+| 136         | Easy       | [Single Number](https://leetcode.com/problems/single-number/)             | [Solution]() |       |
+| 191         | Easy       | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)       | [Solution]() |       |
+| 338         | Easy       | [Counting Bits](https://leetcode.com/problems/counting-bits/)             | [Solution]() |       |
+| 190         | Easy       | [Reverse Bits](https://leetcode.com/problems/reverse-bits/)               | [Solution]() |       |
+| 268         | Easy       | [Missing Number](https://leetcode.com/problems/missing-number/)           | [Solution]() |       |
+| 371         | Medium     | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | [Solution]() |       |
+| 7           | Medium     | [Reverse Integer](https://leetcode.com/problems/reverse-integer/)         | [Solution]() |       |
 
