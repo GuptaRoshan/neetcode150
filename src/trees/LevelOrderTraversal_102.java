@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class LevelOrderTraversal {
+public class LevelOrderTraversal_102 {
 
     public static List<List<Integer>> levelOrderBFS(TreeNode root) {
         Queue<TreeNode> queue = new LinkedList<>();
