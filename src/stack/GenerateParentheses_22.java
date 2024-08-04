@@ -3,7 +3,7 @@ package stack;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GenerateParentheses {
+public class GenerateParentheses_22 {
 
     public static void backtrack(List<String> list, String str, int open, int close, int n) {
         if (str.length() == n * 2) {
