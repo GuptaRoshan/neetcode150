@@ -12,14 +12,16 @@ public class ReorderList_143 {
         }
 
         // Step 2: Reverse the second half of the list
-        ListNode prev = null, curr = slow.next;
+        ListNode prev = null;
+        ListNode curr = slow.next;
+        ListNode next = null;
         while (curr != null) {
-            ListNode next = curr.next;
+            next = curr.next;
             curr.next = prev;
-            prev = curr;
+            prev = curr; // prev always points to the head of the reversed linked list
             curr = next;
         }
-        slow.next = null;
+        slow.next = null;  // Disconnect the first half from the second half
 
         // Step 3: Merge the two lists (first half and reversed second half)
         ListNode head1 = head, head2 = prev;

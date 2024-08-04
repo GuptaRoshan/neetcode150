@@ -48,12 +48,12 @@ Creator's [original repository](https://github.com/neetcode-gh/leetcode) and [we
 
 | LeetCode ID | Difficulty | Problem                                                                                             | Solution | Notes                                                |
 |-------------|------------|-----------------------------------------------------------------------------------------------------|----------|------------------------------------------------------|
-| 20          | Easy       | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                               |          | Done                                                 |
+| 20          | Easy       | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                               |          | Simple Stack                                         |
 | 155         | Medium     | [Min Stack](https://leetcode.com/problems/min-stack/)                                               |          | Create linked list with min value and insert at head |
 | 150         | Medium     | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) |          | Done                                                 |
 | 22          | Medium     | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)                         |          | can be done using backtracking, more elegant         |
 | 739         | Medium     | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)                             |          | Done using monotonic stack                           |
-| 853         | Medium     | [Car Fleet](https://leetcode.com/problems/car-fleet/)                                               |          |                                                      |
+| 853         | Medium     | [Car Fleet](https://leetcode.com/problems/car-fleet/)                                               |          | Simple Stack                                         |
 | 84          | Hard       | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)     |          | Can be done using increasing `monotonic stack`       |
 
 ## Binary Search
@@ -70,19 +70,19 @@ Creator's [original repository](https://github.com/neetcode-gh/leetcode) and [we
 
 ## Linked List
 
-| LeetCode ID | Difficulty | Problem                                                                                             | Solution | Notes |
-|-------------|------------|-----------------------------------------------------------------------------------------------------|----------|-------|
-| 206         | Easy       | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)                           |          |       |
-| 21          | Easy       | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)                     |          |       |
-| 143         | Medium     | [Reorder List](https://leetcode.com/problems/reorder-list/)                                         |          |       |
-| 19          | Medium     | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) |          |       |
-| 141         | Easy       | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)       |          |       |
-| 2           | Medium     | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)                                   |          |       |
-| 141         | Easy       | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)                               |          |       |
-| 287         | Medium     | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)               |          |       |
-| 146         | Medium     | [LRU Cache](https://leetcode.com/problems/lru-cache/)                                               |          |       |
-| 23          | Hard       | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)                         |          |       |
-| 25          | Hard       | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)                 |          |       |
+| LeetCode ID | Difficulty | Problem                                                                                             | Solution | Notes                                                                                                  |
+|-------------|------------|-----------------------------------------------------------------------------------------------------|----------|--------------------------------------------------------------------------------------------------------|
+| 206         | Easy       | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)                           |          | Using three pointers, in recursion maintain value of two nodes in function call, first and second node |
+| 21          | Easy       | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)                     |          | solved using dummy node and two pointers, in recursion use divide and conquer                          |
+| 143         | Medium     | [Reorder List](https://leetcode.com/problems/reorder-list/)                                         |          | 1. Find middle, 2. Reverse second half, 3.Reorder from both the head                                   |
+| 19          | Medium     | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) |          | Fast and slow pointers, first move slow nth times and the move slow and first one step                 |
+| 141         | Easy       | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)       |          | Implemented using hashmap                                                                              |
+| 2           | Medium     | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)                                   |          | List is already in reverse status, loop and calculate sum and carry                                    |
+| 141         | Easy       | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)                               |          | Floyd's Tortoise and Hare algorithm                                                                    |
+| 287         | Medium     | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)               |          | Floyd's Tortoise and Hare algorithm.                                                                   |
+| 146         | Medium     | [LRU Cache](https://leetcode.com/problems/lru-cache/)                                               |          | Can be solved using doubly linked list                                                                 |
+| 23          | Hard       | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)                         |          | Can be solved using priority queue                                                                     |
+| 25          | Hard       | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)                 |          | Done using n pointers                                                                                  |
 
 ## Trees
 

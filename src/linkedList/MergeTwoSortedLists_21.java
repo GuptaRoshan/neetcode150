@@ -3,15 +3,6 @@ package linkedList;
 public class MergeTwoSortedLists_21 {
 
 
-    /**
-     * Merge two sorted linked lists and return it as a sorted list. The list should be made by splicing together the nodes of the first two lists.
-     * <p>
-     * Iterative approach
-     *
-     * @param list1 head of the first list
-     * @param list2 head of the second list
-     * @return head of the merged list
-     */
     public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode dummy = new ListNode(0);
         ListNode current = dummy;
@@ -31,16 +22,9 @@ public class MergeTwoSortedLists_21 {
         return dummy.next;
     }
 
-
-    /**
-     * Merge two sorted linked lists and return it as a sorted list. The list should be made by splicing together the nodes of the first two lists.
-     * <p>
-     * Recursive approach
-     *
-     * @param l1 head of the first list
-     * @param l2 head of the second list
-     * @return head of the merged list
-     */
+    // This function uses divide and conquer technique to merge two sorted linked lists
+    // Along with two pointers, it uses recursion to merge two linked lists
+    // Time complexity: O(n + m) where n and m are the lengths of two linked lists
     public static ListNode mergeTwoListsRecursive(ListNode l1, ListNode l2) {
         if (l1 == null) return l2;
         if (l2 == null) return l1;
