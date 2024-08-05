@@ -248,7 +248,7 @@ Creator's [original repository](https://github.com/neetcode-gh/leetcode) and [we
 | 191         | Easy       | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)       | [Solution](https://github.com/GuptaRoshan/neetcode150/blob/main/src/bitManipulation/NumberOfOneBits_191.java) |       |
 | 338         | Easy       | [Counting Bits](https://leetcode.com/problems/counting-bits/)             | [Solution](https://github.com/GuptaRoshan/neetcode150/blob/main/src/bitManipulation/CountingBits_338.java)    |       |
 | 190         | Easy       | [Reverse Bits](https://leetcode.com/problems/reverse-bits/)               | [Solution](https://github.com/GuptaRoshan/neetcode150/blob/main/src/bitManipulation/ReverseBits_190.java)     |       |
-| 268         | Easy       | [Missing Number](https://leetcode.com/problems/missing-number/)           | ---                                                                                                           |       |
+| 268         | Easy       | [Missing Number](https://leetcode.com/problems/missing-number/)           | ---                                                                                                           | ---   |
 | 371         | Medium     | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | ---                                                                                                           | ---   |
 | 7           | Medium     | [Reverse Integer](https://leetcode.com/problems/reverse-integer/)         | ---                                                                                                           | ---   |
 
