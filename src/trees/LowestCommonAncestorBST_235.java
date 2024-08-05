@@ -36,7 +36,7 @@ public class LowestCommonAncestorBST_235 {
 
     public static void main(String[] args) {
         TreeNode p = new TreeNode(2);
-        TreeNode q = new TreeNode(8);
+        TreeNode q = new TreeNode(4);
 
         //Given array: [6,2,8,0,4,7,9,null,null,3,5]
         TreeNode root = new TreeNode(6);
