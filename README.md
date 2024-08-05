@@ -172,36 +172,36 @@ Creator's [original repository](https://github.com/neetcode-gh/leetcode) and [we
 
 ## 1-D Dynamic Programming
 
-| LeetCode ID | Difficulty | Problem                                                                                         | Solution     | Notes |
-|-------------|------------|-------------------------------------------------------------------------------------------------|--------------|-------|
-| 70          | Easy       | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                               | [Solution]() |       |
-| 746         | Easy       | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)             | [Solution]() |       |
-| 198         | Medium     | [House Robber](https://leetcode.com/problems/house-robber/)                                     | [Solution]() |       |
-| 213         | Medium     | [House Robber II](https://leetcode.com/problems/house-robber-ii/)                               | [Solution]() |       |
-| 5           | Medium     | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)   | [Solution]() |       |
-| 647         | Medium     | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)                 | [Solution]() |       |
-| 91          | Medium     | [Decode Ways](https://leetcode.com/problems/decode-ways/)                                       | [Solution]() |       |
-| 322         | Medium     | [Coin Change](https://leetcode.com/problems/coin-change/)                                       | [Solution]() |       |
-| 152         | Medium     | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)             | [Solution]() |       |
-| 139         | Medium     | [Word Break](https://leetcode.com/problems/word-break/)                                         | [Solution]() |       |
-| 300         | Medium     | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Solution]() |       |
-| 416         | Medium     | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)         | [Solution]() |       |
+| LeetCode ID | Difficulty | Problem                                                                                         | Solution | Notes |
+|-------------|------------|-------------------------------------------------------------------------------------------------|----------|-------|
+| 70          | Easy       | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                               | ---      | ---   |
+| 746         | Easy       | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)             | ---      | ---   |
+| 198         | Medium     | [House Robber](https://leetcode.com/problems/house-robber/)                                     | ---      | ---   |
+| 213         | Medium     | [House Robber II](https://leetcode.com/problems/house-robber-ii/)                               | ---      | ---   |
+| 5           | Medium     | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)   | ---      | ---   |
+| 647         | Medium     | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)                 | ---      | ---   |
+| 91          | Medium     | [Decode Ways](https://leetcode.com/problems/decode-ways/)                                       | ---      | ---   |
+| 322         | Medium     | [Coin Change](https://leetcode.com/problems/coin-change/)                                       | ---      | ---   |
+| 152         | Medium     | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)             | ---      | ---   |
+| 139         | Medium     | [Word Break](https://leetcode.com/problems/word-break/)                                         | ---      | ---   |
+| 300         | Medium     | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | ---      | ---   |
+| 416         | Medium     | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)         | ---      | ---   |
 
 ## 2-D Dynamic Programing
 
-| LeetCode ID | Difficulty | Problem                                                                                                                       | Solution     | Notes |
-|-------------|------------|-------------------------------------------------------------------------------------------------------------------------------|--------------|-------|
-| 62          | Medium     | [Unique Paths](https://leetcode.com/problems/unique-paths/)                                                                   | [Solution]() |       |
-| 1143        | Medium     | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)                                       | [Solution]() |       |
-| 309         | Medium     | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [Solution]() |       |
-| 518         | Medium     | [Coin Change II](https://leetcode.com/problems/coin-change-ii/)                                                               | [Solution]() |       |
-| 494         | Medium     | [Target Sum](https://leetcode.com/problems/target-sum/)                                                                       | [Solution]() |       |
-| 97          | Medium     | [Interleaving String](https://leetcode.com/problems/interleaving-string/)                                                     | [Solution]() |       |
-| 329         | Hard       | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)                     | [Solution]() |       |
-| 115         | Hard       | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)                                                 | [Solution]() |       |
-| 72          | Hard       | [Edit Distance](https://leetcode.com/problems/edit-distance/)                                                                 | [Solution]() |       |
-| 312         | Hard       | [Burst Balloons](https://leetcode.com/problems/burst-balloons/)                                                               | [Solution]() |       |
-| 10          | Hard       | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)                                     | [Solution]() |       |
+| LeetCode ID | Difficulty | Problem                                                                                                                       | Solution | Notes |
+|-------------|------------|-------------------------------------------------------------------------------------------------------------------------------|----------|-------|
+| 62          | Medium     | [Unique Paths](https://leetcode.com/problems/unique-paths/)                                                                   | ---      | ---   | 
+| 1143        | Medium     | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)                                       | ---      | ---   |
+| 309         | Medium     | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | ---      | ---   |
+| 518         | Medium     | [Coin Change II](https://leetcode.com/problems/coin-change-ii/)                                                               | ---      | ---   |
+| 494         | Medium     | [Target Sum](https://leetcode.com/problems/target-sum/)                                                                       | ---      | ---   |
+| 97          | Medium     | [Interleaving String](https://leetcode.com/problems/interleaving-string/)                                                     | ---      | ---   |
+| 329         | Hard       | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)                     | ---      | ---   |
+| 115         | Hard       | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)                                                 | ---      | ---   |
+| 72          | Hard       | [Edit Distance](https://leetcode.com/problems/edit-distance/)                                                                 | ---      | ---   |
+| 312         | Hard       | [Burst Balloons](https://leetcode.com/problems/burst-balloons/)                                                               | ---      | ---   |
+| 10          | Hard       | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)                                     | ---      | ---   |
 
 ## Greedy
 
