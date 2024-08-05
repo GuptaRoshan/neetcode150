@@ -3,7 +3,7 @@ package arrayAndHashing;
 import java.util.HashSet;
 import java.util.Set;
 
-public class ValidSudoku_271 {
+public class ValidSudoku_36 {
 
     /**
      * check if the given board is valid sudoku

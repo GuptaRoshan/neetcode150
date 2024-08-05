@@ -1,6 +1,6 @@
 package bitManipulation;
 
-public class ReverseBits {
+public class ReverseBits_190 {
     public int reverseBits(int n) {
         if (n == 0) return 0;
 
@@ -15,6 +15,6 @@ public class ReverseBits {
 
     public static void main(String[] args){
         int n = 0b00000010100101000001111010011100;
-        System.out.println(new ReverseBits().reverseBits(n));
+        System.out.println(new ReverseBits_190().reverseBits(n));
     }
 }
